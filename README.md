@@ -35,14 +35,14 @@ Amazon Simple Storage Service (S3) is Amazon Web Services' scalable object stora
 <br />
 <h2>Bucket Endpoints</h2>
 
-- <b>Once static website is enabled, S3 produces a bucket endpoint URL which is the location on the internet that allows public access. When I first visited the bucket endpoint URL I observed/received an access denited 403 forbidden exception message. The reason for this error was due to my objects in my S3 bucket being set to private (by default) when I initially
+- <b>Once static website is enabled, S3 produces a bucket endpoint URL which is the location on the internet that allows public access. When I first visited the bucket endpoint URL I observed/received an access denied 403 forbidden exception message. The reason for this error was due to my objects in my S3 bucket being set to private (by default) when I initially
  uploaded them.</b>
 
 <img src="https://i.imgur.com/8vVGSHn.png"/>
 <br />
 
 - <b>To resolve the connection error, I selected the objects in my S3 bucket, went into 'Actions' drop down menu and clicked 'Make public using ACL'. Confirmed this action by selecting 'Make public' and my objects were updated to allow public read access.
-- SUCCESSFUL Website hosted using Amazon S3!</b>
+- Outcome: Successful Website hosted using Amazon S3!</b>
 
 <img src="https://i.imgur.com/XpZdCiG.png"/>
 <br />
